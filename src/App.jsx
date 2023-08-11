@@ -4,11 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  console.log("?: ", `${import.meta.env.VITE_BASE_URL}`)
 
   return (
     <>
-    
+
       <div id='logoz'>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -18,6 +18,9 @@ function App() {
         </a>
       </div>
       <h1>👀</h1>
+
+      <h2>{import.meta.env.VITE_IMPORTANT_VARIABLE_MAYBE_AN_API_KEY_LOL}</h2>
+
       
     </>
   )
