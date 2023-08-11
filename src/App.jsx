@@ -19,7 +19,7 @@ function App() {
       </div>
       <h1>👀</h1>
 
-      <h2>{import.meta.env.VITE_IMPORTANT_VARIABLE_MAYBE_AN_API_KEY_LOL}</h2>
+      <h2>-{import.meta.env.VITE_IMPORTANT_VARIABLE_MAYBE_AN_API_KEY_LOL}-</h2>
 
       
     </>
